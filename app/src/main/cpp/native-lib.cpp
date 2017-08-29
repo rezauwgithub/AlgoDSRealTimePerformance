@@ -3,7 +3,7 @@
 
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_net_nitroservices_algodsrealtimeperformance_MainActivity_stringFromJNI(
+Java_net_nitroservices_algodsrealtimeperformance_Controller_MainActivity_stringFromJNI(
         JNIEnv *env,
         jobject /* this */) {
     std::string hello = "Hello from C++";
